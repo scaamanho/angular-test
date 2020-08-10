@@ -1,13 +1,14 @@
 <div class="user">
-<h2>users works!</h2>
-<button type="button" class="btn btn-secondary">
+<h2  (click) ="add($event)">users works!</h2>
+<button type="button" class="btn btn-secondary" (click)="clickedName($event)">
   Genera Evento: <span class="badge badge-light"><span (click)="clickedName($event)">{{ value }}</span></span>
 </button>
 <hr>
 <div class="counter">
-Counter:<span class="badge badge-warning badge-pill">{{ counter }}</span>
+Counter: <span class="badge badge-info badge-pill"  (click) ="less($event)">{{ counter }}</span>
 </div>
 <hr>
-<button (click) ="update($event)" class="btn btn-primary btn-sm update">Update Me!</button>
+<button (click) ="add($event)" class="btn btn-primary btn-sm update">Up!!</button> &nbsp;
+<button (click) ="less($event)" class="btn btn-danger btn-sm update">Down!!</button>
 <br>
 </div>

@@ -1,12 +1,14 @@
 <nav>
-  <p>Navegacion</p>
-  <ul>
-    <li>a</li>
-    <li>a</li>
-    <li>a</li>
-    <li>a</li>
-    <li>a</li>
-  </ul>
+  <h4>Info Panel</h4>
+  <div class="info">
+    <div class="card radius" style="width: 100%;">
+      <div class="card-body">
+        <h5 class="card-title"> {{ evento_seleccionado.name }} : {{evento_seleccionado.counter }}</h5>
+        <hr/>
+        <pre  class="card-text">{{ string_event }}</pre>
+      </div>
+    </div>
+  </div>
 </nav>
 
 <div class="column">
@@ -14,7 +16,7 @@
   <users *ngFor="let user of users" value="{{user.name}}" (value_clicked)="mostrarEvento($event)"></users>
 </div>
 <footer>
-  <p>&copy;2020 Santiago Caamaño - {{ evento_seleccionado }}</p>
+  <p>&copy;2020 Santiago Caamaño</p>
 </footer>
 <router-outlet>
   

@@ -2,7 +2,7 @@
 nav {
     display: inline-block;
     vertical-align: top;
-    background-color: aquamarine;
+    background-color: rgb(102, 143, 21,155);
     width: 15%;
     height: 92vh;
     max-height: inherit;
@@ -32,26 +32,26 @@ footer {
     font-size: smaller;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
-    overflow: hidden;
-    background-color: cornsilk;
-    border-color: #111;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
+.event 
+{
+    padding: 1px;
+    border-color: azure;
     background-color: #111;
-  }
+    font-weight: bold;
+    color: aqua;
+}
+
+.info{
+    margin: 10px;
+    width: 93%; 
+}
+
+.radius{border-radius: 5px;}
+h4 {
+    margin: 10px;
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    width: 93%;
+    text-align: center;
+}

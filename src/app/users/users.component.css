@@ -31,3 +31,8 @@ h2{
 .update{
     font-weight: bold;
 }
+
+.badge
+{
+    font-size: 12px;
+}

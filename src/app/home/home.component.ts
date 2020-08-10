@@ -13,7 +13,8 @@ export class HomeComponent implements OnInit {
 
   title = "Angular Rocks!!"
 
-  evento_seleccionado:String = ""
+  evento_seleccionado:object;
+  string_event:string;
 
   constructor(homeService:HomeService) 
   {
@@ -24,7 +25,8 @@ export class HomeComponent implements OnInit {
   }
 
   mostrarEvento (e):void{
-    this.evento_seleccionado = e.name;
+    this.evento_seleccionado = e;
+    this.string_event = JSON.stringify(e, null, 2);
   }
 
 }
