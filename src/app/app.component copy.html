@@ -1,0 +1,31 @@
+<!--<header>
+cabecera
+</header>-->
+<nav>
+  <p>Navegacion</p>
+  <ul>
+    <li>a</li>
+    <li>a</li>
+    <li>a</li>
+    <li>a</li>
+    <li>a</li>
+  </ul>
+</nav>
+
+<div class="column">
+  <!-- Usuarios dinamincos -->
+  <users *ngFor="let item of users" value="{{item.name}}"></users>
+  <!-- usuarios estaticos -->
+  <users value="{{ title }}"></users>
+  <users value="persefone"></users>
+  <users value="algomotas"></users>
+  <users value="persefone"></users>
+  <users value="algomotas"></users>
+  <users value="persefone"></users>
+</div>
+<footer>
+  matelero
+</footer>
+<router-outlet>
+  
+</router-outlet>

@@ -1,0 +1,21 @@
+<nav>
+  <p>Navegacion</p>
+  <ul>
+    <li>a</li>
+    <li>a</li>
+    <li>a</li>
+    <li>a</li>
+    <li>a</li>
+  </ul>
+</nav>
+
+<div class="column">
+  <!-- Usuarios dinamincos -->
+  <users *ngFor="let user of users" value="{{user.name}}" (value_clicked)="mostrarEvento($event)"></users>
+</div>
+<footer>
+  <p>&copy;2020 Santiago Caamaño - {{ evento_seleccionado }}</p>
+</footer>
+<router-outlet>
+  
+</router-outlet>

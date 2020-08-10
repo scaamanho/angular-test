@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-test';
+
+  users = [{name: "sandino"}, {name: "paladino"}, {name: "masuterio"}, {name: "neisedes"}, {name: "malandrin"}, {name: "lutino"}];
 }

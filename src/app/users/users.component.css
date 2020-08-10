@@ -1,0 +1,33 @@
+.user {
+    background-color: #eee;
+    width: 23%;
+    display: inline-block;
+    height: 160px;
+    margin: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+
+.counter{
+    font-size: 13px;
+}
+
+
+hr{
+    margin: 5px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow;
+    border-radius: 5px;
+    font-weight: bolder;
+}   
+
+.update{
+    font-weight: bold;
+}
