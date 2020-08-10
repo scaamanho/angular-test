@@ -5,4 +5,8 @@ export class HomeService {
         {name: "sandino3"}, {name: "paladino3"}, {name: "masuterio3"}, {name: "neisedes3"}, {name: "malandrin3"}, {name: "lutino3"},
         {name: "persefone"}, {name: "algomotas"}, {name: "segismundo"}, {name: "recaredo"}, {name: "vintestunda"}, {name: "alanitomayor"}];
     }
+
+    defaultEvent():object{
+        return {name:null,counter:null,even:null};
+    }
 }

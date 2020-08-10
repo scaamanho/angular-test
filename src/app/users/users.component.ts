@@ -39,6 +39,6 @@ export class UsersComponent implements OnInit {
   }
 
   generateEvent(e):void {
-    this.value_clicked.emit({name: this.value, counter: this.counter})
+    this.value_clicked.emit({name: this.value, counter: this.counter, event: e})
   }
 }
